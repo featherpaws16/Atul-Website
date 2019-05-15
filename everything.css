@@ -1,0 +1,362 @@
+body {
+	font-family: Arial;
+	font-size: 10 px;
+	color: #FFFFFF;
+	background-color: #CCCCB5;
+}
+
+table {
+	background-color: #FFFFFF;
+	font-family: Arial;
+	font-size: 13px;
+	color: #000000;
+}
+
+#main {
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	/* [disabled]box-shadow: 10px 10px 5px #888; */
+}
+#top {
+	width: 1500px;
+}
+#empty {
+	height: 350px;
+	color: #CCCCB5;
+}
+#empty #empty {
+	width: 209px;
+}
+
+
+#main table {
+	font-family: Calibri;
+	font-size: 11pt;
+}
+#news {
+	padding-top: 120px;
+	padding-left: 30px;
+	width: 350px;
+	background-color: #CCCCB5;
+}
+
+#news #news {
+	text-align: left;
+	height: 500px;
+	width: 200px;
+	background-color: #AAA;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+	/* [disabled]box-shadow: 10px 10px 5px #888; */
+}
+
+
+#main ol {
+	font-family: Calibri;
+	font-size: 9pt;
+}
+
+
+
+
+#nav {
+	border-width: 1px;
+	border-style: solid;
+}
+#main #labtable tr td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#main #labtable tr td ol li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+
+
+#outreach_left {
+	border-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	display: block;
+}
+
+#outreach_right {
+	border-style: solid;
+	border-right-width: 1px;
+}
+#padding1 {
+	padding-top: 50px;
+}
+
+#outreach {
+	background-color: #FFF;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	float: inherit;
+	height: 150px;
+}
+#outreach a {
+	text-decoration: underline;
+	display: block;
+	color: #333;
+	font-size: 1.4em;
+	/* [disabled]text-shadow: 4px 4px 4px #B5D0E6; */
+	height: 110px;
+}
+#outreach a:hover {
+	background: #142465;
+	color: #FFF;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-shadow: 0px 0px 0px;
+	text-decoration: none;
+
+}
+
+#footer {
+	font-size: 10 px;
+	padding: 10px 0;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-color: #CCCCB5;
+	/* [disabled]box-shadow: 10px 10px 5px #888; */
+	color: #FFF;
+}
+#shadow {
+	box-shadow: 10px -1px 5px #888;
+}
+
+
+#footer ul {
+	list-style-type: none;
+}
+#footer ul li {
+	font-size: 10px;
+	text-align: left;
+}
+
+
+a:link {
+	color: #007099;
+	
+}
+
+A:visited {
+	color: #007099;
+}
+
+a:active {
+
+}
+
+a:hover {
+	color: FFB900;
+}
+
+#lightbox{
+	position: absolute;
+	left: 0; width: 100%; z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+
+
+#lightbox img{ 
+	width: auto; 
+	height: auto;
+}
+
+
+#lightbox a img{ 
+	border: none; 
+}
+
+
+
+#outerImageContainer{ 
+	position: relative; 
+	background-color: #fff; 
+	width: 250px; 
+	height: 250px; 
+	margin: 0 auto; 
+}
+
+
+#imageContainer{ 
+	padding: 10px; 
+}
+
+
+
+#loading{ 
+	position: absolute; 
+	top: 40%; 
+	left: 0%; 
+	height: 25%; 
+	width: 100%; 
+	text-align: center; 
+	line-height: 0; 
+}
+
+
+#hoverNav{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	height: 100%; 
+	width: 100%; 
+	z-index: 10; 
+}
+
+
+#imageContainer>#hoverNav{ 
+	left: 0;
+}
+
+
+#hoverNav a{ 
+	outline: none;
+}
+
+
+
+#prevLink, #nextLink{ 
+	width: 49%; 
+	height: 100%; 
+	background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ 
+	display: block; 
+}
+
+
+#prevLink { 
+	left: 0; 
+	float: left;
+}
+
+
+#nextLink { 
+	right: 0; 
+	float: right;
+}
+
+
+#prevLink:hover, #prevLink:visited:hover { 
+	background: url(images/prevlabel.gif) left 15% no-repeat; 
+}
+
+
+#nextLink:hover, #nextLink:visited:hover { 
+	background: url(images/nextlabel.gif) right 15% no-repeat; 
+}
+
+
+
+#imageDataContainer{ 
+	font: 10px Verdana, Helvetica, sans-serif; 
+	background-color: #fff; 
+	margin: 0 auto; 
+	line-height: 1.4em; 
+	overflow: auto; 
+	width: 100%; 
+}
+
+
+
+#imageData{
+	padding:0 10px; 
+	color: #666; 
+}
+
+
+#imageData #imageDetails{ 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}
+
+
+#imageData #caption{ 
+	font-weight: bold;
+}
+
+
+#imageData #numberDisplay{ 
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}
+
+#imageData #bottomNavClose{ 
+	width: 66px; 
+	float: right;  
+	padding-bottom: 0.7em; 
+	outline: none;
+}
+
+
+#overlay{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 90; 
+	width: 100%; 
+	height: 500px; 
+	background-color: #000;
+}
+
+li {
+	margin-bottom:1em;
+}
+
+#lidouble {
+	margin-bottom:2em;
+	}
+#main ol li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+#main ol p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24pt;
+}
+#main ol strong li {
+	font-size: 14px;
+}
+#vcu {
+	width: 100%;
+	background-color: #616161;
+	position: relative;
+}
+
+.relative {
+	position: relative;
+}
+
+#main #labsection {
+	padding-left: 17px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	height: 17px;
+	width: 20px;
+	float: left;
+}
+#main #labsectiontitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	float: right;
+	width: 590px;
+	height: 37px;
+}
